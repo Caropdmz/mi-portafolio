@@ -55,8 +55,7 @@ def dupe_indices(array)
     if letter_count_array(array, ele) > 1
       indices = get_index(array, ele)
       hash[ele] = indices
-      #indices << i
-      #indices << i #agregar otro if, antes de esta linea
+
     end
 
   end
